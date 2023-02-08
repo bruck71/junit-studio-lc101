@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f24b5793-22dc-4888-ab24-cf075b8781a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" />
+    <list default="true" id="de50c7fc-e3a1-4d56-9c49-b6ae3faaafcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.firstHalf">
+  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.emptyArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -43,7 +45,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -52,31 +54,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBracketsTest.emptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="emptyTest" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="emptyArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.lengthOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -86,13 +72,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="lengthOne" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusBinarySearchTest.firstHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.lengthOneNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +89,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
-      <option name="METHOD_NAME" value="firstHalf" />
+      <option name="METHOD_NAME" value="lengthOneNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.negativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="negativeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.notFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="notFound" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -149,10 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusBinarySearchTest.firstHalf" />
-        <item itemvalue="JUnit.BonusBinarySearchTest" />
-        <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
-        <item itemvalue="JUnit.BalancedBracketsTest" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.emptyArray" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.lengthOneNotFound" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.notFound" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.lengthOne" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.negativeNumbers" />
       </list>
     </recent_temporary>
   </component>
